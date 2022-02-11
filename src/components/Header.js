@@ -43,11 +43,7 @@ const MainHeader = () => {
               Pokedex
             </NavLink>
           </li>
-          <li>
-            <NavLink activeClassName={Header.active} to="/mypokemon">
-              My Pokemon
-            </NavLink>
-          </li>
+         
         </ul>
       </nav>
     </Header>

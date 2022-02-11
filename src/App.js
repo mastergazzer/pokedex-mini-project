@@ -39,9 +39,7 @@ function App() {
           <Route path="/pokedex/:pokeName">
             <PokemonDetails />
           </Route>
-          <Route path="/mypokemon">
-            <MyPokemonList />
-          </Route>
+         
         </Switch>
       </main>
     </ApolloProvider>

@@ -25,7 +25,7 @@ padding: 1em 0;
 
 const PokemonListPage=()=> {
   const { data, loading, error } = useQuery(GET_POKEMON_LIST, {
-    variables: { limit: 40, offset: 0 },
+    variables: { limit: 40, offset: 100 },
   });
   if (loading) return "Loading...";
   if (error) return <pre>{error.message}</pre>;

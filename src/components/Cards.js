@@ -45,7 +45,6 @@ const Content = styled.div`
 `;
 
 const MovesLayout = styled.div`
- 
   text-align: center;
   margin-top: 0.7em;
   text-transform: capitalize;
@@ -64,7 +63,7 @@ const Button = styled.button`
 
 const Cards = (props) => {
   return (
-    <MoveCard>
+    <div>
       <Image>
         <img src={props.image} alt="aa"></img>
       </Image>
@@ -73,8 +72,8 @@ const Cards = (props) => {
         {props.type}
       </Content>
       <MovesLayout>{props.moves}</MovesLayout>
-      <Button onClick={() => {}}>Catch!</Button>
-    </MoveCard>
+      <Button onClick={props.buttonHandler}>Catch!</Button>
+    </div>
   );
 };
 export default Cards;
