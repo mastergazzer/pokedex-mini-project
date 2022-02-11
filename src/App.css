@@ -1,3 +1,33 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-family: "Quicksand", sans-serif;
+}
+body {
+  /* display: grid;
+  display: grid;
+  place-items: center;
+  place-items: center;
+  height: 100vh;
+  background: #7f7fd5; */
+  margin: 0;
+  /* background: linear-gradient(to right, #ff0202, #e45353, #531717);  */
+  background: #ffff;
+  
+}
+main {
+  margin-top: 7rem;
+  text-align: center;
+  /* background-color: #61dafb; */
+  display: grid;
+  place-items: center;
+}
 .App {
   text-align: center;
 }
